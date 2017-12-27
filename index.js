@@ -4,13 +4,15 @@ const db = require('./database/database.js');
 
 const app = express();
 
-app.get('/', (req, res) => {
-  res.json('Hello PUPPIES sofie');
-});
-
 const PORT = process.env.SERVER_PORT || 8888
 
 app.listen(PORT, console.log(`app now listening on ${PORT}`));
+
+
+
+app.get('/', (req, res) => {
+  res.json('Hello KITTIES sofie');
+});
 
 app.get('/testing', (req, res) => {
   res.json('this worked!');

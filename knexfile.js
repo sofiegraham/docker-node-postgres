@@ -15,16 +15,3 @@ module.exports = {
     debug: true,
   },
 };
-// const postgresUrl = `postgres://${process.env.POSTGRES_USER}:${process.env.POSTGRES_PASSWORD}@${process.env.POSTGRES_HOST}:${process.env.POSTGRES_PORT}`;
-
-// module.exports = {
-//   development: {
-//     client: 'pg',
-//     connection: postgresUrl + '?ssl=true',
-//     migrations: {
-//       directory: './database/migrations',
-//     },
-//     debug: true,
-//   },
-// };
-
